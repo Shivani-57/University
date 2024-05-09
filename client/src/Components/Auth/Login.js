@@ -90,7 +90,7 @@ function Login() {
                   <span className="text-input tracking-tight font-medium text-lg sm:text-xl">
                     Don't have an account?{" "}
                     <Link
-                      to="/login"
+                      to="/"
                       className="text-black font-semibold tracking-tight text-lg sm:text-xl"
                     >
                       Sign up
