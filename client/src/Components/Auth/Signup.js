@@ -32,7 +32,7 @@ function Signup() {
         <SignupSvg />
         </div>
 
-        <div className=" flex-1 flex flex-col  h-fit border ">
+        <div className="-mt-[16vh] sm:-mt-[21vh] md:-mt-[25vh] lg:-mt-[30vh] flex-1 flex flex-col  h-fit border ">
           <form
             className="bg-transparent  h-fit "
             onSubmit={handleSubmit}
