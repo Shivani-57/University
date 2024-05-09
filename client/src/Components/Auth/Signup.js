@@ -28,13 +28,13 @@ function Signup() {
     <div className="flex flex-col h-screen ">
       <div className="hidden"></div>
       <div className=" flex-1 flex flex-col ">
-        <div className=" left-0 -z-10  right-0 rounded  ">
+        <div className=" left-0 -z-10  right-0 rounded border-2 border-blue-600  ">
         <SignupSvg />
         </div>
 
-        <div className="-mt-[16vh] sm:-mt-[21vh] md:-mt-[25vh] lg:-mt-[30vh] flex-1 flex flex-col  h-fit">
+        <div className="-mt-[16vh] sm:-mt-[21vh] md:-mt-[25vh] lg:-mt-[30vh] flex-1 flex flex-col  h-fit border border-green-400">
           <form
-            className="bg-transparent  h-fit "
+            className="bg-transparent  h-fit border-red-400 "
             onSubmit={handleSubmit}
             
           >
