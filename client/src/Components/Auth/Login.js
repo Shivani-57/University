@@ -49,7 +49,7 @@ function Login() {
                     name="email"
                     id="email"
                     placeholder="Email ID "
-                    className="border-b-2 text-2xl sm:text-3xl outline-none border-input flex-grow mr-2"
+                    className="border-b-2 text-2xl sm:text-3xl outline-none min-w-0 border-input flex-grow mr-2"
                     onChange={handleChange}
                   />
                 </div>
@@ -62,7 +62,7 @@ function Login() {
                     name="password"
                     id="password"
                     placeholder="Set Password"
-                    className="border-b-2 text-2xl sm:text-3xl outline-none border-input flex-grow mr-2"
+                    className="border-b-2 text-2xl sm:text-3xl outline-none min-w-0 border-input flex-grow mr-2"
                     onChange={handleChange}
                   />
                 </div>
