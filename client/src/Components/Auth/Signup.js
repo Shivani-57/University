@@ -25,34 +25,34 @@ function Signup() {
     console.log(formData);
   }
   return (
-    <div className="flex flex-col h-screen ">
+    <div className="flex flex-col h-screen w-screen">
       <div className="hidden"></div>
       <div className=" flex-1 flex flex-col ">
-        <div className=" left-0 -z-10  right-0 rounded border-2 border-blue-600  ">
+        {/* <div className=" left-0 -z-10  right-0 rounded border-2 border-blue-600  ">
         <SignupSvg />
-        </div>
+        </div> */}
 
-        <div className="-mt-[16vh] sm:-mt-[21vh] md:-mt-[25vh] lg:-mt-[30vh] flex-1 flex flex-col  h-fit border border-green-400">
+        <div className=" flex-1 flex flex-col  h-fit border ">
           <form
-            className="bg-transparent  h-fit border-red-400 "
+            className="bg-transparent  h-fit "
             onSubmit={handleSubmit}
-            
           >
             <div className="  flex flex-col justify-center h-fit ">
               <div className=" py-6 px-7   font-bold text-3xl sm:text-5xl text-black tracking-tight flex   justify-end ">
                 Sign up
               </div>
               <div className="p-6 sm:p-10 md:p-20 lg:px-36">
-                <div className="  flex my-10 py-3 px-5 ">
+                <div className="  flex my-10 py-3 px-5  ">
                   <label htmlFor="name" className="mr-3 ">
                     <BiUser className="text-input text-2xl sm:text-3xl" />
                   </label>
+
                   <input
                     type="text"
                     name="name"
                     id="name"
                     placeholder="Name"
-                    className="text-2xl sm:text-3xl border-b-2 outline-none border-input flex-grow mr-2"
+                    className="text-2xl sm:text-3xl border-b-2 outline-none min-w-0 border-input flex-grow pr-2"
                     onChange={handleChange}
                   />
                 </div>
@@ -65,7 +65,7 @@ function Signup() {
                     name="email"
                     id="email"
                     placeholder="Email ID "
-                    className="border-b-2 text-2xl sm:text-3xl outline-none border-input flex-grow mr-2"
+                    className="border-b-2 text-2xl sm:text-3xl outline-none min-w-0 border-input flex-grow mr-2"
                     onChange={handleChange}
                   />
                 </div>
@@ -78,7 +78,7 @@ function Signup() {
                     name="password"
                     id="password"
                     placeholder="Set Password"
-                    className="border-b-2 text-2xl sm:text-3xl outline-none border-input flex-grow mr-2"
+                    className="border-b-2 text-2xl sm:text-3xl outline-none min-w-0 border-input flex-grow mr-2"
                     onChange={handleChange}
                   />
                 </div>
@@ -89,7 +89,9 @@ function Signup() {
                 </div>
                 <div className=" flex items-center  p-2">
                   <div className="flex-grow h-px bg-gray-400 mx-2"></div>
-                  <span className=" pb-1 text-2xl sm:text-3xl text-gray-500">or</span>
+                  <span className=" pb-1 text-2xl sm:text-3xl text-gray-500">
+                    or
+                  </span>
                   <div className="flex-grow h-px bg-gray-400 mx-2"></div>
                 </div>
                 <div className=" flex justify-center p-2">
