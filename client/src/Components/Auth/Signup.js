@@ -25,7 +25,7 @@ function Signup() {
     console.log(formData);
   }
   return (
-    <div className="flex flex-col h-screen w-screen">
+    <div className="flex flex-col h-screen ">
       <div className="hidden"></div>
       <div className=" flex-1 flex flex-col ">
         <div className=" left-0 -z-10  right-0 rounded  ">
