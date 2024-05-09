@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Svg from "../../assets/Svg";
+import SignupSvg from "../../assets/SignupSvg";
 import wave from "../../assets/wave.svg";
 import { BiUser } from "react-icons/bi";
 import { MdAlternateEmail } from "react-icons/md";
@@ -29,7 +29,7 @@ function Signup() {
       <div className="hidden"></div>
       <div className=" flex-1 flex flex-col ">
         <div className=" left-0 -z-10  right-0 rounded  ">
-        <Svg />
+        <SignupSvg />
         </div>
 
         <div className="-mt-[16vh] sm:-mt-[21vh] md:-mt-[25vh] lg:-mt-[30vh] flex-1 flex flex-col  h-fit">

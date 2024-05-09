@@ -1,6 +1,6 @@
 import React from "react";
 
-function Svg() {
+function SignupSvg() {
   return (
     <div className="">
     <svg
@@ -25,4 +25,4 @@ function Svg() {
   );
 }
 
-export default Svg;
+export default SignupSvg;
